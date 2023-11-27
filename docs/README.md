@@ -61,12 +61,12 @@ Java source code. Packages:<br>
 <P>Action:<br>
 <img src="images/orangeHR-500.png"><br>
 <img src="images/orangeSquare.png"> 1. With batch file
- <a href="01%20Docker%20Pulsar.bat"><I>"01 Docker Pulsar.bat"</I></a> install and start the container with the Pulsar.<br>
+ <a href="https://github.com/k1729p/Study21/blob/main/0_batch/01%20Docker%20Pulsar.bat"><I>"01 Docker Pulsar.bat"</I></a> install and start the container with the Pulsar.<br>
 <img src="images/orangeSquare.png"> 2. With batch file
- <a href="02%20Pulsar%20create%20tenant%20and%20namespace.bat">
+ <a href="https://github.com/k1729p/Study21/blob/main/0_batch/02%20Pulsar%20create%20tenant%20and%20namespace.bat">
  <I>"02 Pulsar create tenant and namespace.bat"></I></a> create the tenant and the namespace.<br>
 <img src="images/orangeSquare.png"> 3. With batch file 
- <a href="03%20Docker%20build%20and%20run.bat"><I>"03 Docker build and run.bat"></I></a> build the image and<br>
+ <a href="https://github.com/k1729p/Study21/blob/main/0_batch/03%20Docker%20build%20and%20run.bat"><I>"03 Docker build and run.bat"></I></a> build the image and<br>
 <img src="images/orangeSquare.png"><img src="images/spacer-32.png">start the container with the application.<br>
 <img src="images/orangeHR-500.png"></P>
 
@@ -202,7 +202,7 @@ The consumer in the container <b>osd-originator-2</b> consumes messages from the
 </P>
 <P>
 The consumer method:
-<a href="https://github.com/k1729p/Study21/blob/main/src/main/java/kp/originators/KpOriginator.java#L100">
+<a href="https://github.com/k1729p/Study21/blob/main/src/main/java/kp/originators/KpOriginator.java#L99">
 kp.originators.KpOriginator::receive</a>.
 </P>
 
@@ -219,7 +219,7 @@ The reporter uses the Pulsar Reader.
 <P>Action:<br>
 <img src="images/orangeHR-500.png"><br>
 <img src="images/orangeSquare.png"> 1. With batch file
- <a href="04%20Docker%20start%20reporter.bat"><I>"04 Docker start reporter.bat"</I></a> start the reporter.<br>
+ <a href="https://github.com/k1729p/Study21/blob/main/0_batch/04%20Docker%20start%20reporter.bat"><I>"04 Docker start reporter.bat"</I></a> start the reporter.<br>
 <img src="images/orangeHR-500.png"></P>
 
 <P>
@@ -244,7 +244,7 @@ The reporter uses the Pulsar Reader.
 </P>
 <P>
 The searching and checking method:
-<a href="https://github.com/k1729p/Study21/blob/main/src/main/java/kp/reporters/KpReporter.java#L75">
+<a href="https://github.com/k1729p/Study21/blob/main/src/main/java/kp/reporters/KpReporter.java#L74">
 kp.reporters.KpReporter::findAndCheck</a>.
 </P>
 <P>
@@ -261,7 +261,7 @@ The <a href="images/OsdReporter1.png" height="135" width="620"">
 </P>
 <P>
 The searching and displaying method:
-<a href="https://github.com/k1729p/Study21/blob/main/src/main/java/kp/reporters/KpReporter.java#L186">
+<a href="https://github.com/k1729p/Study21/blob/main/src/main/java/kp/reporters/KpReporter.java#L189">
 kp.reporters.KpReporter::findLatestAndDisplay</a>.
 </P>
 <P>
