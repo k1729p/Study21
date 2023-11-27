@@ -133,7 +133,7 @@ The failover test steps:
 <P><img src="images/greenCircle.png">
 2.3. The producers in the container <b>osd-originator-1</b> and <b>osd-originator-2</b> produce messages to the topic '<b>select-dest</b>'.<br>
 The producer method:
-<a href="https://github.com/k1729p/Study21/blob/main/src/main/java/kp/originators/KpOriginator.java#L73">
+<a href="https://github.com/k1729p/Study21/blob/main/src/main/java/kp/originators/KpOriginator.java#L72">
 kp.originators.KpOriginator::sendMessage</a>.
 </P>
 <P><IMG src="images/OsdOriginator.png" height="155" width="740"/><BR>
