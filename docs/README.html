@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <HTML lang="en">
-<HEAD>
-    <META charset="UTF-8">
-    <title>Study21</title>
-</HEAD>
+<META charset="UTF-8">
 <BODY>
 <a href="../../../tree/main/docs"><img src="images/ColorScheme.png" height="25" width="800" alt=""/></a>
 <H2 id="contents">Study21 README Contents</H2>
