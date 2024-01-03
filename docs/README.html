@@ -2,7 +2,7 @@
 <HTML lang="en">
 <META charset="UTF-8">
 <BODY>
-<a href="../../../tree/main/docs"><img src="images/ColorScheme.png" height="25" width="800" alt=""/></a>
+<a href="https://github.com/k1729p/Study21/tree/main/docs"><img src="images/ColorScheme.png" height="25" width="800" alt=""/></a>
 <H2 id="contents">Study21 README Contents</H2>
 <H3 id="top">Research the Pulsar message broker</H3>
 
