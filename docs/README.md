@@ -81,9 +81,7 @@ Java source code. Packages:<br>
 <I>The message flows between the containers in Docker.</I>
 </P>
 <P>
-<IMG src="images/ScreenshotDockerContainer.png" height="575" width="565"/><BR>
-<img src="images/blackArrowUp.png">
-<I>The screenshot of the created Docker containers.</I>
+The <a href="images/ScreenshotDockerContainers.png">screenshot</a> of the created Docker containers.
 </P>
 
 <P><img src="images/greenCircle.png">

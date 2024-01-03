@@ -5,7 +5,7 @@ set NAMESPACE=kp-namespace
 set TOPICS=orig-1, orig-2, dest-1, dest-2, select-dest, select-orig
 
 set /P KEY="Delete previous topics, namespace and tenant? Y [N]"
-  if /i "%KEY:~0,1%"=="Y" (
+if /i "%KEY:~0,1%"=="Y" (
   for %%T in (%TOPICS%) do (
     echo delete topic %%T
     %EXEC_PULSAR_ADMIN% topics delete persistent://%TENANT%/%NAMESPACE%/%%T > nul 2>&1

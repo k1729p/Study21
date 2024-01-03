@@ -12,6 +12,7 @@ goto :mavenBuildOnDockerAndRun
 
 :mavenBuildOnLocalhost
 call %M2_HOME%\bin\mvn clean install
+popd
 pause
 goto :eof
 
