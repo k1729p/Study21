@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <HTML lang="en">
 <HEAD>
-	<META charset="UTF-8">
+    <META charset="UTF-8">
+    <title>Study21</title>
 </HEAD>
 <BODY>
 <a href="../../../tree/main/docs"><img src="images/ColorScheme.png" height="25" width="800" alt=""/></a>
 <H2 id="contents">Study21 README Contents</H2>
-<H3>Research the Pulsar message broker</H3>
+<H3 id="top">Research the Pulsar message broker</H3>
 
 <p>
 <a href="https://pulsar.apache.org/docs/3.1.x/">Apache Pulsar</a> is a distributed messaging and streaming platform.
@@ -275,7 +276,8 @@ The <a href="images/OsdReporter2.png">
  <I>"05 Docker list.bat"</I></a> run the script for Docker to show the network and the containers.<br>
 <img src="images/orangeSquare.png" alt=""> 2. With batch file
  <a href="https://github.com/k1729p/Study21/blob/main/0_batch/06%20Pulsar%20list.bat">
- <I>"06 Pulsar list.bat"</I></a> run the <b>pulsar-admin</b> to show the tenant, the namespace, the topics and the subscription.<br>
+ <I>"06 Pulsar list.bat"</I></a> run the <b>pulsar-admin</b> to show the tenant, the namespace, the topics and<br>
+ <img src="images/orangeSquare.png" alt=""><img src="images/spacer-32.png" alt="">the subscription.<br>
 <img src="images/orangeHR-500.png" alt=""></P>
 
 <P><img src="images/greenCircle.png" alt="">
