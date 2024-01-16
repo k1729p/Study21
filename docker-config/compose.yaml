@@ -1,0 +1,60 @@
+# osd: originator + selector + destination
+services:
+   osd-originator-1:
+      container_name: osd-originator-1
+      image: eeengcs/study21:1.0.0-SNAPSHOT
+      networks:
+      - app-net
+      command: ['java','--add-opens','java.base/sun.net=ALL-UNNAMED','-jar','application.jar','originator1']
+      restart: unless-stopped
+   osd-originator-2:
+      container_name: osd-originator-2
+      image: eeengcs/study21:1.0.0-SNAPSHOT
+      networks:
+      - app-net
+      command: ['java','--add-opens','java.base/sun.net=ALL-UNNAMED','-jar','application.jar','originator2']
+      restart: unless-stopped
+   osd-selector-dest-a:
+      container_name: osd-selector-dest-a
+      image: eeengcs/study21:1.0.0-SNAPSHOT
+      networks:
+      - app-net
+      command: ['java','--add-opens','java.base/sun.net=ALL-UNNAMED','-jar','application.jar',"selectorDest"]
+      restart: unless-stopped
+   osd-selector-dest-b:
+      container_name: osd-selector-dest-b
+      image: eeengcs/study21:1.0.0-SNAPSHOT
+      networks:
+      - app-net
+      command: ['java','--add-opens','java.base/sun.net=ALL-UNNAMED','-jar','application.jar',"selectorDest"]
+      restart: unless-stopped
+   osd-selector-orig:
+      container_name: osd-selector-orig
+      image: eeengcs/study21:1.0.0-SNAPSHOT
+      networks:
+      - app-net
+      command: ['java','--add-opens','java.base/sun.net=ALL-UNNAMED','-jar','application.jar',"selectorOrig"]
+      restart: unless-stopped
+   osd-destination-1:
+      container_name: osd-destination-1
+      image: eeengcs/study21:1.0.0-SNAPSHOT
+      networks:
+      - app-net
+      command: ['java','--add-opens','java.base/sun.net=ALL-UNNAMED','-jar','application.jar','destination1']
+      restart: unless-stopped
+   osd-destination-2:
+      container_name: osd-destination-2
+      image: eeengcs/study21:1.0.0-SNAPSHOT
+      networks:
+      - app-net
+      command: ['java','--add-opens','java.base/sun.net=ALL-UNNAMED','-jar','application.jar','destination2']
+      restart: unless-stopped
+   osd-reporter:
+      container_name: osd-reporter
+      image: eeengcs/study21:1.0.0-SNAPSHOT
+      networks:
+      - app-net
+      command: ['java','--add-opens','java.base/sun.net=ALL-UNNAMED','-jar','application.jar','reporter']
+networks:
+  app-net:
+    external: true
